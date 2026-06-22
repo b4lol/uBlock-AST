@@ -1,0 +1,169 @@
+{
+  "ignoreDomains": [
+    "googleapis.com",
+    "googletagmanager.com",
+    "google-analytics.com",
+    "cloudflare.com",
+    "gstatic.com"
+  ],
+  "sites": [
+    {
+      "url": "https://www.pornhub.com/",
+      "userAgent": "chrome",
+      "filterRegex": "ads|tracker|popunder|cdnvexo|bobmedia|ukvid|videotourl",
+      "reload": 1,
+      "delay": 8000,
+      "timeout": 30000,
+      "interact": true,
+      "interact_clicks": true,
+      "capture_popups": true,
+      "interact_popups": true,
+      "fingerprint_protection": "random",
+      "comments": "Adult site scanning - handles age verification popups"
+    },
+    {
+      "url": "https://www.porntrex.com/",
+      "userAgent": "chrome",
+      "filterRegex": "ads|tracker|popunder|cdnvexo|bobmedia|ukvid|videotourl",
+      "reload": 1,
+      "delay": 8000,
+      "timeout": 30000,
+      "interact": true,
+      "interact_clicks": true,
+      "capture_popups": true,
+      "interact_popups": true,
+      "fingerprint_protection": "random"
+    },
+    {
+      "url": "https://spankbang.com/",
+      "userAgent": "chrome",
+      "filterRegex": "ads|tracker|popunder|cdnvexo|bobmedia|ukvid|videotourl",
+      "reload": 1,
+      "delay": 8000,
+      "timeout": 30000,
+      "interact": true,
+      "interact_clicks": true,
+      "capture_popups": true,
+      "interact_popups": true,
+      "fingerprint_protection": "random"
+    },
+    {
+      "url": "https://turkifsatube.com/",
+      "userAgent": "chrome",
+      "filterRegex": "ads|tracker|popunder|cdnvexo|bobmedia|ukvid|videotourl",
+      "reload": 1,
+      "delay": 8000,
+      "timeout": 30000,
+      "interact": true,
+      "interact_clicks": true,
+      "capture_popups": true,
+      "interact_popups": true,
+      "fingerprint_protection": "random"
+    },
+    {
+      "url": "https://www.speedtest.net/",
+      "userAgent": "chrome",
+      "filterRegex": "dataLayer|telemetry|tracking|ads",
+      "resourceTypes": ["script", "xhr"],
+      "reload": 2,
+      "delay": 12000,
+      "timeout": 35000,
+      "interact": true,
+      "fingerprint_protection": "random"
+    },
+    {
+      "url": "https://www.reddit.com/",
+      "userAgent": "chrome",
+      "filterRegex": "events|tracking|telemetry|ads",
+      "resourceTypes": ["script", "xhr", "fetch"],
+      "reload": 2,
+      "delay": 8000,
+      "timeout": 30000,
+      "interact": true,
+      "fingerprint_protection": "random"
+    },
+    {
+      "url": "https://canlitvnews3.xyz/",
+      "userAgent": "chrome",
+      "filterRegex": "devtools|debugger|ads|tracker|popunder",
+      "reload": 1,
+      "delay": 8000,
+      "timeout": 30000,
+      "interact": true,
+      "interact_clicks": true,
+      "capture_popups": true,
+      "interact_popups": true,
+      "fingerprint_protection": "random",
+      "comments": "Streaming site with anti-devtools and debugger scriptlets"
+    },
+    {
+      "url": "https://www.google.com/",
+      "userAgent": "chrome",
+      "filterRegex": "async/hpba|promos|ads",
+      "resourceTypes": ["script", "xhr"],
+      "reload": 1,
+      "delay": 4000,
+      "timeout": 20000,
+      "interact": false
+    },
+    {
+      "url": "https://www.youtube.com/",
+      "userAgent": "chrome",
+      "filterRegex": "annotations_module|endscreen|ads|telemetry",
+      "resourceTypes": ["script", "xhr", "fetch"],
+      "reload": 2,
+      "delay": 8000,
+      "timeout": 30000,
+      "interact": true,
+      "fingerprint_protection": "random"
+    },
+    {
+      "url": "https://x.com/",
+      "userAgent": "chrome",
+      "filterRegex": "trending|promoted|ads|telemetry",
+      "resourceTypes": ["script", "xhr", "fetch"],
+      "reload": 2,
+      "delay": 8000,
+      "timeout": 30000,
+      "interact": true,
+      "fingerprint_protection": "random"
+    },
+    {
+      "url": "https://www.amazon.com/",
+      "userAgent": "chrome",
+      "filterRegex": "AdHolder|sponsored|ads|telemetry",
+      "resourceTypes": ["script", "xhr", "image"],
+      "reload": 2,
+      "delay": 6000,
+      "timeout": 25000,
+      "interact": true,
+      "fingerprint_protection": "random"
+    },
+    {
+      "url": "https://utanmazkizlar.com/",
+      "userAgent": "chrome",
+      "filterRegex": "cdnvexo|bobmedia|ukvid|videotourl|ads|tracker",
+      "reload": 2,
+      "delay": 8000,
+      "timeout": 35000,
+      "interact": true,
+      "interact_clicks": true,
+      "capture_popups": true,
+      "interact_popups": true,
+      "fingerprint_protection": "random"
+    },
+    {
+      "url": "https://cdnvexo.site/",
+      "userAgent": "chrome",
+      "filterRegex": "preLinkDone|_adSkipped|ads|tracker|popunder",
+      "reload": 2,
+      "delay": 8000,
+      "timeout": 35000,
+      "interact": true,
+      "interact_clicks": true,
+      "capture_popups": true,
+      "interact_popups": true,
+      "fingerprint_protection": "random"
+    }
+  ]
+}
