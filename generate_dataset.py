@@ -211,6 +211,20 @@ def run():
             
             out.write("---\n\n")
 
+    # Write JSON Dataset
+    output_json_file = "./datasets/ublock_filter_rules.json"
+    all_json_rules = []
+    for category, list_rules in rules_by_category.items():
+        for r in list_rules:
+            all_json_rules.append({
+                "category": r["category"],
+                "raw_rule": r["raw_rule"],
+                "is_exception": r["is_exception"],
+                "details": r["details"]
+            })
+    with open(output_json_file, 'w', encoding='utf-8') as out_json:
+        json.dump(all_json_rules, out_json, indent=2, ensure_ascii=False)
+
     # Clean up uAssets temp folder
     shutil.rmtree("./uAssets_temp")
     print("Full dataset generated successfully!")
